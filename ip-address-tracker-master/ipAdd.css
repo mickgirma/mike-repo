@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik";
+}
+
+.head{
+    color: white;
+}
+
+.inpt{
+    font-size: 18px;
+    width: 35%;
+    height: 2em;
+    border: solid white ;
+}
+
+.btn{
+    background-color: hsl(0, 0%, 32%);
+    
+}
+
+.det-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    background-color: blue;
+}
+
+.details{
+    width: 70%;
+    height: 7em;
+    color:  hsl(0, 0%, 59%);
+    text-transform: uppercase;
+    /* display: flex;
+    justify-content: space-around; */
+    background-color: red;
+}
+
+.head , .details{
+    background-image: url("images/pattern-bg-desktop.png");
+}
+
+.details{
+
+}
+
+#map { height: 30vw; }

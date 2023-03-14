@@ -1,0 +1,67 @@
+body{
+    font-size: 12px;
+    font-family: "Kumbh Sans";
+    color: hsl(237, 12%, 33%);
+}
+
+.whole{
+    background-image: linear-gradient( hsl(273, 75%, 66%) ,  hsl(240, 73%, 65%));    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vw;
+}
+
+.main{
+    display: flex;
+    background-color: white;
+    width: 70%;
+    height: 40vw;
+    margin: 5px;
+    /* text-align: center; */
+    border-radius: 1.5em;
+}
+
+.left{
+    background-image: url("faq-accordion-card-main/images/bg-pattern-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    position: relative;
+    top: 15%;
+    left: 0;
+}
+
+.right{
+    /* justify-content: end; */
+    /* margin-left: .5em; */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.img-1{
+    position: absolute;
+    top: 20%;
+    left: -9.5vw;
+}
+
+.img-2{
+    position: relative;
+    top: 0;
+    left: -7vw;
+}
+
+p{
+   flex-shrink: 0;
+}
+
+hr{
+    color: hsl(240, 5%, 91%);
+}
+
+h2{
+    font-weight: 700;
+}
